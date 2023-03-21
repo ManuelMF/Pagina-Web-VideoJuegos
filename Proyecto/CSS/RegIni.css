@@ -1,0 +1,84 @@
+#divConR {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 40px 40%;
+}
+
+input[type="file"] {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  color: #555;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Cambia el estilo al pasar el ratón por encima del botón */
+input[type="file"]:hover {
+  background-color: #ddd;
+}
+
+/* Cambia el estilo al hacer clic en el botón */
+input[type="file"]:active {
+  background-color: #ccc;
+}
+
+#left {
+  text-align: left;
+  color: white;
+}
+
+#textIzquierda {
+  text-align: left;
+  float: left;
+  color: white;
+}
+
+#btn {
+  width: 50%;
+  height: 5%;
+}
+
+.button-colorSelected {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.button-colorNoSelected {
+  background-color: #8ba5b6;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+
+  transition: background-color 0.3s;
+}
+
+.button-colorNoSelected:hover {
+  background-color: #3498db;
+}
+
+#divProyectos {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 40px 30%;
+}
+
+#white {
+  color: white;
+}
+
+#whiteDelSub {
+  color: white;
+  text-decoration: none;
+}

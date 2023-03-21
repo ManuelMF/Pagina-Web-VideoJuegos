@@ -1,0 +1,142 @@
+#h1_title {
+    margin-left: 31%;
+    color: white;
+}
+
+#h1_subtitel {
+    margin-left: 16%;
+    color: white;
+}
+
+#button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+#refSinBarra {
+    text-decoration: none;
+}
+
+#ulA {
+    list-style-type: circle;
+}
+
+#ulB {
+    list-style-type: square;
+}
+
+#olC {
+    list-style-type: upper-roman;
+}
+
+#olD {
+    list-style-type: lower-alpha;
+}
+
+#divCon {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 40px 250px;
+
+}
+
+#divConC {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 40px 250px;
+    padding: 40px;
+    background-color: #292626;
+}
+
+#article {
+    padding: 40px;
+    background-color: #353232;
+    margin: 40px 100px;
+}
+
+#divConCC {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 40px 250px;
+    padding: 40px;
+    padding-bottom: 9%;
+    background-color: #353232;
+}
+
+#subtileAboutYou {
+    text-align: left;
+    color: white;
+}
+
+#textIzquierda {
+    text-align: left;
+    float: left;
+}
+
+.seccion-articulos {
+    width: 45%;
+    float: left;
+
+}
+
+.seccion-articulos:nth-child(2) {
+    float: right;
+    margin-left: 200px;
+}
+
+#borderleft {
+    margin-left: 90px;
+}
+
+#divProyect {
+    margin: 60px 20%;
+}
+
+#pMediano {
+    font-size: 20px;
+    color: white;
+}
+
+#centerbtn {
+    display: block;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+#centerbtn:hover {
+    background-color: #555;
+}
+
+.roundedIMG {
+    border-radius: 50%;
+}
+
+body {
+    background-image: url('../Recourses/fonfo.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#redBack {
+    background-color: #D83530;
+}

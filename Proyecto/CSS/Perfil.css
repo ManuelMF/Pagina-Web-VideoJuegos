@@ -1,0 +1,15 @@
+.rounded-image {
+    border-radius: 50%;
+    display: block;
+    /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+#divConP {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
